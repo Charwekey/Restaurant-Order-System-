@@ -63,3 +63,13 @@ def place_order(orders, menu):
 
 
 
+#view_active_orders
+
+def view_active_orders(orders):
+    
+    for order in orders:
+        if order["status"] == "pending":
+            print(order)
+
+
+
