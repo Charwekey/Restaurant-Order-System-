@@ -73,3 +73,31 @@ def view_active_orders(orders):
 
 
 
+
+#mark as served
+
+def mark_as_served(orders):
+    
+    target_id = input("Please enter your order_id: ")
+    
+    found = False
+    
+    for order in orders:
+        if order["order_id"] == target_id:
+            found = True
+            
+        
+            if order["status"] == "pending":
+                order["status"] = "served"
+                print("Order Marked as served")
+            else:
+                print("Order already marked as served")
+            break
+        
+    if not found:
+        print("Order not found")
+        
+            
+        
+        
+        
