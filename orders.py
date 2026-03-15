@@ -101,3 +101,33 @@ def mark_as_served(orders):
         
         
         
+#cancel_order
+
+def cancel_order(orders):
+    
+    target_order_id = input("Enter your order id: ")
+    
+    found = False
+    
+    for order in orders:
+        if order["order_id"] == target_order_id:
+            found = True 
+            
+            if order["status"] != "pending":
+                print("Order has already been served. It cannot be cancelled.")
+                break
+            
+            confirm = input("Are you sure you want to cancel this order? (yes/no): ")
+            if confirm.lower() == "yes":
+                orders.remove(order)
+                save_orders(orders)
+                
+                print("Order cancelled successfully.")
+            else:
+                print("Cancellation aborted.")
+
+            break
+        
+    if not found:
+       print("Order Id not found")
+        
