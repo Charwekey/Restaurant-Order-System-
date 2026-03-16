@@ -1,0 +1,7 @@
+{'order_id': 'ORD002', 'table_number': 2, 'customer_name': 'charchar', 'items': [{'item': 'Burger', 'quantity': 5}], 'status': 'served', 'timestamp': '2026-03-14 21:28:14'}
+{'order_id': 'ORD003', 'table_number': 10, 'customer_name': 'ahmed', 'items': [{'item': 'Burger', 'quantity': 9}, {'item': 'Garlic Bread', 'quantity': 9}], 'status': 'served', 'timestamp': '2026-03-15 03:13:27'}
+{'order_id': 'ORD003', 'table_number': 17, 'customer_name': 'pepe', 'items': [{'item': 'Burger', 'quantity': 17}], 'status': 'pending', 'timestamp': '2026-03-15 03:16:45'}
+{'order_id': 'ORD004', 'table_number': 9, 'customer_name': 'LUN', 'items': [{'item': 'Burger', 'quantity': 8}], 'status': 'pending', 'timestamp': '2026-03-15 03:18:18'}
+{'order_id': 'ORD005', 'table_number': 7, 'customer_name': 'pop', 'items': [{'item': 'Burger', 'quantity': 8}], 'status': 'pending', 'timestamp': '2026-03-15 03:19:34'}
+{'order_id': 'ORD006', 'table_number': 18, 'customer_name': 'rabi', 'items': [{'item': 'Burger', 'quantity': 10}], 'status': 'pending', 'timestamp': '2026-03-15 03:33:13'}
+{'order_id': 'ORD008', 'table_number': 8, 'customer_name': 'Charwe', 'items': [{'item': 'Chicken Wings', 'quantity': 2}, {'item': 'Ice Cream', 'quantity': 20}], 'status': 'served', 'timestamp': '2026-03-16 09:29:52'}
