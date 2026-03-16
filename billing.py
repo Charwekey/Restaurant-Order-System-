@@ -68,3 +68,4 @@ def generate_order_bill(orders, menu):
     print(f"VAT (15%): GHC {vat}")
     print(f"Grand Total: GHC {grand_total}")
     print("----------------------")
+    print("Thank you for dining with Syntax Bistro!")

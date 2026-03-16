@@ -26,7 +26,7 @@ menu = {
 
 
 def display_menu(menu):
-    print(f" \n Restaurant Menu" )
+    print(f" \n Syntax Bistro Menu" )
     
     for category, items in menu.items():
         print(f"\n {category}")

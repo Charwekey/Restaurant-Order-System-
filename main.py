@@ -10,7 +10,7 @@ orders = load_orders()
 
 while True:
 
-    print("\nRestaurant System")
+    print("\n Welcome to SYNTAX BISTRO")
     print("1. Display Menu")
     print("2. Place Order")
     print("3. View Active Orders")
