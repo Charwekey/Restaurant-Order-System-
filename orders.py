@@ -101,7 +101,7 @@ def place_order(orders, menu):
 
     orders.append(order)
 
-    print("\nOrder placed successfully")
+    print("\nOrder placed successfully. Thank you for choosing Syntax Bistro!")
     print(f"Here is your order:\n{order}")
 
 
