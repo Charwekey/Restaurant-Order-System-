@@ -1,12 +1,17 @@
 def generate_order_bill(orders, menu):
 
     while True:
-        try:
-            target_table_number = int(input("Kindly enter your table number to generate order bill: ").strip())
-            break
-        except ValueError:
-            print("Table number must be a number. Please try again.")
+          table_input = input("Kindly enter your table number to generate order bill: ").strip()
 
+          if table_input == "":
+           print("Please enter a table number.")
+           continue
+          try:
+           target_table_number = int(table_input)
+           break
+          except ValueError:
+           print("Table number must be a number. Please try again.")
+           
     sub_total = 0
     table_has_order = False
     served_order_found = False
