@@ -1,32 +1,90 @@
-Restaurant Order System
 
-Project Description
+# 🍽️ Restaurant Order System
 
-The Restaurant Order System is a Python-based command-line application designed to help restaurant staff manage customer orders efficiently. 
-The system allows users to display the restaurant menu, place orders, view active orders, mark orders as served, generate bills for served orders, cancel orders, and save or load order records.
-It helps simulate how a simple restaurant ordering system works while demonstrating core programming concepts such as functions, dictionaries, lists, file handling, and error handling in Python.
+## 📌 Project Description
 
-Features
-	•	Display restaurant menu grouped by categories (Starters, Mains, Drinks, Desserts)
-	•	Place orders by entering table number, customer name, and menu items
-	•	Automatically generate unique order IDs
-	•	View all active (pending) orders
-	•	Mark orders as served
-	•	Generate a bill for served orders including subtotal, VAT (15%), and grand total
-	•	Cancel pending orders with confirmation
-	•	Save orders to a file (orders.txt)
-	•	Load saved orders from a file
+The **Restaurant Order System** is a Python-based command-line application designed to help restaurant staff manage customer orders efficiently.
 
-How to Run the Project Locally
-	1.	Clone the repository:
+This system simulates a real-world restaurant workflow by allowing users to:
+
+* Display the restaurant menu
+* Place and manage orders
+* Track order status
+* Generate bills
+
+It also demonstrates key programming concepts such as:
+
+* Functions
+* Dictionaries and lists
+* File handling
+* Error handling
+
+---
+
+## Features
+
+* 📋 Display restaurant menu grouped into categories:
+
+  * Starters
+  * Mains
+  * Drinks
+  * Desserts
+
+* 🧾 Place orders by entering:
+
+  * Table number
+  * Customer name
+  * Selected menu items
+
+* 🔢 Automatically generate unique Order IDs
+
+* 📊 View all active (pending) orders
+
+* ✅ Mark orders as served
+
+* 💰 Generate bills for served orders, including:
+
+  * Subtotal
+  * VAT (15%)
+  * Grand total
+
+* ❌ Cancel pending orders with confirmation
+
+* 💾 Save orders to a file (`orders.txt`)
+
+* 📂 Load previously saved orders
+
+---
+
+##  How to Run the Project Locally
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/Charwekey/Restaurant-Order-System-.git
-	2.	Navigate into the project folder:
+```
+
+### 2. Navigate into the project folder
+
+```bash
 cd restaurant-order-system
-	3.	Run the Python program:
+```
+
+### 3. Run the application
+
+```bash
 python main.py
-	4.	Follow the menu options displayed in the terminal to interact with the system.
+```
+
+### 4. Interact with the system
+
+Follow the menu options displayed in the terminal to perform actions such as placing orders, viewing orders, and generating bills.
+
+---
+
+##  Author
+
+**Name:** Charwekey Rabi Sabutey
+**Cohort:** 4
 
 
-Author
-Name: Charwekey Rabi Sabutey
-Cohort: 4
