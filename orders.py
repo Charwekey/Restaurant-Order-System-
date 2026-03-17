@@ -102,7 +102,20 @@ def place_order(orders, menu):
     orders.append(order)
 
     print("\nOrder placed successfully. Thank you for choosing Syntax Bistro!")
-    print(f"Here is your order:\n{order}")
+    print("\n========== ORDER SUMMARY ==========")
+    print(f"Order ID: {order['order_id']}")
+    print(f"Customer Name: {order['customer_name']}")
+    print(f"Table Number: {order['table_number']}")
+    print(f"Order Time: {order['timestamp']}")
+    print("\nItems Ordered:")
+
+    for item in order["items"]:
+      print(f" - {item['item']} x {item['quantity']}")
+
+
+    print("Status:", order["status"])
+    print("===================================")
+      
 
 
 # VIEW ACTIVE ORDERS
@@ -110,14 +123,28 @@ def view_active_orders(orders):
 
     found = False
 
+    print("\n========== ACTIVE ORDERS ==========")
+
     for order in orders:
         if order["status"] == "pending":
-            print(order)
             found = True
+
+            print(f"\nOrder ID: {order['order_id']}")
+            print(f"Customer Name: {order['customer_name']}")
+            print(f"Table Number: {order['table_number']}")
+            print(f"Order Time: {order['timestamp']}")
+            print("Items Ordered:")
+
+            for item in order["items"]:
+                print(f" - {item['item']} x {item['quantity']}")
+
+            print("Status:", order["status"])
+            print("-----------------------------------")
 
     if not found:
         print("No active orders.")
 
+    print("===================================")
 
 # MARK AS SERVED
 def mark_as_served(orders):

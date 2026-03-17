@@ -26,7 +26,7 @@ cd restaurant-order-system
 python main.py
 	4.	Follow the menu options displayed in the terminal to interact with the system.
 
-Author
 
+Author
 Name: Charwekey Rabi Sabutey
 Cohort: 4

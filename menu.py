@@ -1,6 +1,5 @@
 #dictionary of menu display
-import datetime
-import ast
+
 menu = {
     "Starters": {
         "Garlic Bread": 5,
